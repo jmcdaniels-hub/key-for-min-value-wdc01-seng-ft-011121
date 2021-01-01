@@ -10,7 +10,7 @@ name_array = name_hash.to_a
   name_array.each do  
     
     element_index= 1
-    if name_array[row_index][element_index] < min value
+    if name_array[row_index][element_index] < min_value
       min_value = name_array[row_index][element_index]
       row_index +=1 
     end   
