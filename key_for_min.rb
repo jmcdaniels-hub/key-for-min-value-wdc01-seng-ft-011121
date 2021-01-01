@@ -8,10 +8,14 @@ row_index = 0
 
 name_array = name_hash.to_a
   
-  name_array.each do 
-    element_index = 1 
-    if name_array[row_index][element_index] < name_array[row_index][element_index]
-      min_value = name_array[row_index][element_index]
+  name_array.each do  
+    if 
     end   
   end 
 end
+
+
+
+
+
+
