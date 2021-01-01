@@ -20,7 +20,7 @@ name_hash.each do |key, value|
   current_key_assoc_w_min_val
 end 
 
-
+{:blake => 500, :ashley => 2, :adam => 1}
 
 
 
