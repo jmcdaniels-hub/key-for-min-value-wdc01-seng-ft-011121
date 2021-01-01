@@ -10,7 +10,10 @@ name_hash.each do |key, value|
       current_minimum_val = value 
       current_key_assoc_w_min_val = key 
     else
-      
+      if current_minimum_val > value 
+        current_minimum_val = value
+        current_key_assoc_w_min_val = key 
+    end
   end
 end 
 
